@@ -29,7 +29,7 @@ jobs:
         with:
           components: rustfmt
       - name: Enforce formatting
-        run: actions-rust-lang/rustfmt@v1
+        uses: actions-rust-lang/rustfmt@v1
   clippy:
     runs-on: ubuntu-latest
     steps:
